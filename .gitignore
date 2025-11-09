@@ -5,7 +5,6 @@ backend/*.jar
 backend/*.war
 backend/*.log
 backend/*.tmp
-backend/.mvn/
 backend/.gradle/
 backend/build/
 backend/.idea/
