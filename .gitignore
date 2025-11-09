@@ -1,0 +1,27 @@
+# === Java / Spring Boot (backend) ===
+backend/target/
+backend/*.class
+backend/*.jar
+backend/*.war
+backend/*.log
+backend/*.tmp
+backend/.mvn/
+backend/.gradle/
+backend/build/
+backend/.idea/
+backend/.vscode/
+backend/*.iml
+
+# === Node / React (frontend) ===
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.vite/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+.metadata/
+
+
+

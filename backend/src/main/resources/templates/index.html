@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehearsal Manager | Dashboard</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Link to your CSS -->
+    <link rel="stylesheet" th:href="@{/css/dashboard.css}">
+</head>
+
+<body>
+<!-- Sidebar -->
+<nav class="sidebar">
+    <a th:href="@{/}" class="active"><i class="fa-solid fa-house"></i> Dashboard </a>
+    <a th:href="@{/schedule}"><i class="fa-solid fa-calendar-days"></i> Schedule</a>
+    <a th:href="@{/scripts}"><i class="fa-solid fa-scroll"></i> Scripts</a>
+    <a th:href="@{/cast}"><i class="fa-solid fa-users"></i> Cast</a>
+    <a th:href="@{/settings}"><i class="fa-solid fa-gear"></i> Settings</a>
+</nav>
+
+<!-- Main content -->
+<main class="main-content">
+    <div class="header">Dashboard</div>
+    <div class="placeholder">
+        <p> dashboard content </p>
+    </div>
+</main>
+
+</body>
+</html>
+
+

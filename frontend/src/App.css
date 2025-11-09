@@ -1,0 +1,35 @@
+/* === App.css === */
+
+/* Layout container that holds the sidebar + main content */
+.app-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8f9fa; /* light gray background */
+    font-family: "Inter", sans-serif;
+  }
+  
+  /* Main content area */
+  .main-content {
+    flex: 1;
+    padding: 2rem;
+    background-color: #fff;
+    overflow-y: auto;
+    border-left: 1px solid #e0e0e0;
+  }
+  
+  /* Headings inside each page */
+  .header {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Placeholder area (used in Dashboard) */
+  .placeholder {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
