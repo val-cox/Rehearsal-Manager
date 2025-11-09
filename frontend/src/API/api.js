@@ -1,8 +1,11 @@
 import axios from "axios";
 
-const api = axios.create({
-  baseURL: "http://localhost:8080", // Spring Boot backend
-});
+const baseURL =
+  import.meta.env.MODE === "development"
+    ? "http://localhost:8080"
+    : "https://rehearsalmanager.onrender.com"; // 🌐 your Render backend URL
+
+const api = axios.create({ baseURL });
 
 // ---- Rehearsals ----
 export const getRehearsals = () => api.get("/rehearsals/all");
