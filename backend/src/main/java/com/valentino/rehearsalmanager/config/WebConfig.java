@@ -14,7 +14,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:5173", "https://rehearsal-manager-frontend.onrender.com") 
+                        .allowedOrigins("http://localhost:5173", "https://rehearsalmanager-axn9.onrender.com") 
            
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
