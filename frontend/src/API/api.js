@@ -1,9 +1,9 @@
 import axios from "axios";
 
-const baseURL =
-  import.meta.env.MODE === "development"
-    ? "http://localhost:8080"
-    : "https://rehearsalmanager.onrender.com"; // 🌐 your Render backend URL
+const baseURL = window.location.hostname.includes("onrender.com")
+  ? "https://rehearsalmanager.onrender.com"
+  : "http://localhost:8080";
+
 
 const api = axios.create({ baseURL });
 
